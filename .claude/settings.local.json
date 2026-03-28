@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx prisma generate)",
+      "Bash(find /Users/farellsujanto/Desktop/platform-mvp/src -name *TemplateEditor* -o -name *template*editor*)",
+      "Bash(npx tsc:*)",
+      "Bash(grep -r \"GET\\\\|POST\\\\|PATCH\\\\|DELETE\" /Users/farellsujanto/Desktop/platform-mvp/src/app/api/v1/admin/*.ts)",
+      "Bash(ls -la /Users/farellsujanto/Desktop/platform-mvp/src/app/s/[key]/)",
+      "Bash(ls /Users/farellsujanto/Desktop/platform-mvp/src/app/s/[key])",
+      "Bash(ls /Users/farellsujanto/Desktop/platform-mvp/src/app/g/[slug])",
+      "Bash(find /Users/farellsujanto/Desktop/platform-mvp/src -type f \\\\\\(-name *.test.ts -o -name *.test.tsx -o -name *.test.js -o -name *.spec.ts -o -name *.spec.tsx \\\\\\))",
+      "Bash(npx jest:*)"
+    ]
+  }
+}
